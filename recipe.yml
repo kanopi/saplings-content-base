@@ -1,0 +1,24 @@
+name: 'Saplings - Content type base'
+description: 'Base configuration for Saplings content types.'
+type: 'Site'
+install:
+  # Core.
+  - content_moderation
+  - link
+  - media
+  - node
+  - taxonomy
+  - text
+  # Contrib.
+  - focal_point
+  - nomarkup
+  - responsive_image
+  - saplings_custom
+config:
+  import:
+    # Core.
+    content_moderation:
+      - views.view.moderated_content
+    # Contrib.
+    focal_point: "*"
+    saplings_custom: "*"
