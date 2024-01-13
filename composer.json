@@ -11,8 +11,9 @@
         }
     ],
     "require": {
-        "drupal/focal_point": "*",
+        "drupal/metatag": "*",
         "drupal/nomarkup": "*",
-        "kanopi/saplings_custom": "*"
+        "kanopi/saplings_custom": "*",
+        "drupal/schema_metatag": "*"
     }
 }
