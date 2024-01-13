@@ -7,12 +7,12 @@ install:
   - link
   - media
   - node
+  - responsive_image
   - taxonomy
   - text
   # Contrib.
   - focal_point
   - nomarkup
-  - responsive_image
   - saplings_custom
 config:
   import:

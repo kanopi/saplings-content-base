@@ -11,14 +11,8 @@
         }
     ],
     "require": {
-        "drupal/access_unpublished": "*",
-        "drupal/field_group": "*",
         "drupal/focal_point": "*",
-        "drupal/publication_date": "^2.0@beta",
-        "drupal/scheduler": "*",
-        "drupal/scheduler_content_moderation_integration": "^2.0@beta",
-        "drupal/schema_metatag": "^3.0",
-        "drupal/token_or": "*",
+        "drupal/nomarkup": "*",
         "kanopi/saplings_custom": "*"
     }
 }
