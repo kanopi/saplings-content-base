@@ -3,20 +3,18 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.sa_16_3
-    - field.field.media.image.field_media_image
-    - media.type.image
+    - field.field.media.sa_featured_image.sa_media_image
+    - media.type.sa_featured_image
     - responsive_image.styles.sa_16_3
   module:
     - nomarkup
     - responsive_image
-_core:
-  default_config_hash: 73xaTNkI5J6sfFcBmNYeuk070X3mQS_iwwWaPYyfG2M
-id: media.image.sa_16_3
+id: media.sa_featured_image.sa_16_3
 targetEntityType: media
-bundle: image
+bundle: sa_featured_image
 mode: sa_16_3
 content:
-  field_media_image:
+  sa_media_image:
     type: responsive_image
     label: visually_hidden
     settings:
@@ -29,7 +27,7 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: ''
-    weight: 1
+    weight: 0
     region: content
 hidden:
   created: true

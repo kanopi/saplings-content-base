@@ -14,6 +14,7 @@ install:
   - text
   # Contrib.
   - focal_point
+  - media_library_edit
   - metatag
   - nomarkup
   - saplings_custom
