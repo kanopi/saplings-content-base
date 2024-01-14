@@ -11,10 +11,12 @@ install:
   - taxonomy
   - text
   # Contrib.
+  - entity_reference_revisions
   - focal_point
   - media_library_edit
   - metatag
   - nomarkup
+  - paragraphs
   - saplings_custom
   - schema_metatag
 config:
@@ -25,4 +27,5 @@ config:
     # Contrib.
     focal_point: "*"
     metatag: "*"
+    paragraphs: "*"
     saplings_custom: "*"

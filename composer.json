@@ -11,10 +11,12 @@
         }
     ],
     "require": {
+        "drupal/entity_reference_revisions": "*",
         "drupal/focal_point": "*",
         "drupal/media_library_edit": "*",
         "drupal/metatag": "*",
         "drupal/nomarkup": "*",
+        "drupal/paragraphs": "*",
         "kanopi/saplings_custom": "*",
         "drupal/schema_metatag": "*"
     }
