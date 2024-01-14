@@ -2,6 +2,6 @@ langcode: en
 status: true
 dependencies: {  }
 name: Category
-vid: category
+vid: sa_category
 description: 'Provides a way to categorize your content by shared characteristics to topic.'
 weight: 0
