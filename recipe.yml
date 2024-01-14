@@ -11,6 +11,7 @@ install:
   - taxonomy
   - text
   # Contrib.
+  - focal_point
   - metatag
   - nomarkup
   - saplings_custom
@@ -21,5 +22,6 @@ config:
     content_moderation:
       - views.view.moderated_content
     # Contrib.
+    focal_point: "*"
     metatag: "*"
     saplings_custom: "*"
