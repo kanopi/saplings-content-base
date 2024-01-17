@@ -2,6 +2,7 @@ name: 'Saplings - Content type base'
 description: 'Base configuration for Saplings content types.'
 type: 'Site'
 recipes:
+  - saplings-media
   - saplings-theme
 install:
   # Core.
