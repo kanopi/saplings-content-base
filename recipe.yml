@@ -1,6 +1,8 @@
 name: 'Saplings - Content type base'
 description: 'Base configuration for Saplings content types.'
 type: 'Site'
+recipes:
+  - saplings-theme
 install:
   # Core.
   - content_moderation
