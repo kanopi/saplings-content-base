@@ -1,0 +1,11 @@
+uuid: 4b082020-3dfc-4aee-9ae5-d253c3ca3797
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.16_9
+label: '16:9'
+description: ''
+targetEntityType: media
+cache: true
