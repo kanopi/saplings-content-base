@@ -1,27 +1,24 @@
-uuid: 0a238f68-d6f4-4040-b767-90bf201e4751
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.16_9
+    - core.entity_view_mode.media.sa_16_9
     - field.field.media.sa_featured_image.sa_media_image
     - media.type.sa_featured_image
-    - responsive_image.styles.16_9
+    - responsive_image.styles.sa_16_9
   module:
     - nomarkup
     - responsive_image
-_core:
-  default_config_hash: VSaTurd_xl0VtAZGHpOvrQQ2VWRvK6T3rgjdl6GxX2c
-id: media.sa_featured_image.16_9
+id: media.sa_featured_image.sa_16_9
 targetEntityType: media
 bundle: sa_featured_image
-mode: '16_9'
+mode: sa_16_9
 content:
   sa_media_image:
     type: responsive_image
     label: visually_hidden
     settings:
-      responsive_image_style: '16_9'
+      responsive_image_style: 'sa_16_9'
       image_link: ''
       image_loading:
         attribute: lazy
