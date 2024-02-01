@@ -1,10 +1,9 @@
-uuid: ac737a61-982f-43d1-b993-d77f6eb1af21
 langcode: en
 status: true
 dependencies:
   module:
     - focal_point
-name: 16_9_768x432
+name: sa_16_9_768
 label: '16:9 768x432'
 effects:
   b4820bf4-deb0-4c4e-9325-c66874b860d3:
