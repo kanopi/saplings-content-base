@@ -18,7 +18,7 @@
         "drupal/nomarkup": "*",
         "drupal/paragraphs": "*",
         "drupal/schema_metatag": "*",
-        "kanopi/saplings-media": "^0.1.11",
+        "kanopi/saplings-media": "^0.1.12",
         "kanopi/saplings-theme": "*",
         "kanopi/saplings_custom": "*"
     }
