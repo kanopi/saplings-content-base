@@ -1,18 +1,9 @@
+![saplings](https://github.com/kanopi/saplings/assets/5177009/a6377e32-deb2-49d8-873a-f3dd5a36fa7c)
+
 # Saplings-Content-Base
 
-## Overview
+Base configuration for Saplings content types.
 
-Welcome to the Saplings-Content-Base repository! This repository contains the base fields and configurations for all content types in the Saplings application.
-
-## Features
-
-- Provides essential fields and configurations required for creating various content types.
-- Ensures consistency and standardization across different content types within Saplings.
-
-## Getting Started
-
-To start using Saplings-Content-Base, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kanopi/saplings-content-base.git
+* Requires Saplings Media recipe.
+* Requires Saplings Theme recipe.
+* Field Storage for shared fields.

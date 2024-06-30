@@ -1,34 +1,17 @@
 name: 'Saplings - Content type base'
-description: 'Base configuration for Saplings content types.'
+description: 'Shared configuration for Saplings content types.'
 type: 'Site'
 recipes:
   - saplings-media
   - saplings-theme
 install:
   # Core.
-  - content_moderation
   - link
   - media
   - node
-  - responsive_image
+  - options
   - taxonomy
   - text
   # Contrib.
   - entity_reference_revisions
-  - focal_point
-  - media_library_edit
-  - metatag
-  - nomarkup
   - paragraphs
-  - saplings_custom
-  - schema_metatag
-config:
-  import:
-    # Core.
-    content_moderation:
-      - views.view.moderated_content
-    # Contrib.
-    focal_point: "*"
-    metatag: "*"
-    paragraphs: "*"
-    saplings_custom: "*"
