@@ -11,15 +11,7 @@
         }
     ],
     "require": {
-        "drupal/entity_reference_revisions": "*",
-        "drupal/focal_point": "*",
-        "drupal/media_library_edit": "*",
-        "drupal/metatag": "*",
-        "drupal/nomarkup": "*",
-        "drupal/paragraphs": "*",
-        "drupal/schema_metatag": "*",
         "kanopi/saplings-media": "*",
-        "kanopi/saplings-theme": "*",
-        "kanopi/saplings_custom": "*"
+        "kanopi/saplings-theme": "*"
     }
 }
