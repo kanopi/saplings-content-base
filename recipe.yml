@@ -2,6 +2,8 @@ name: 'Saplings - Content type base'
 description: 'Shared configuration for Saplings content types.'
 type: 'Site'
 recipes:
+  - saplings-content-base-header
+  - saplings-content-base-seo
   - saplings-media
   - saplings-theme
 install:
