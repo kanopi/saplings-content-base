@@ -11,9 +11,9 @@
         }
     ],
     "require": {
-        "kanopi/saplings-content-base-header": "*",
-        "kanopi/saplings-content-base-seo": "*",
-        "kanopi/saplings-media": "*",
-        "kanopi/saplings-theme": "*"
+        "kanopi/saplings-content-base-header": "^1",
+        "kanopi/saplings-content-base-seo": "^1",
+        "kanopi/saplings-media": "^1",
+        "kanopi/saplings-theme": "^1"
     }
 }
