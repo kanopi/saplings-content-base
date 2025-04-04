@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_overlay_invert
+field_name: field_overlay_invert
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: invert
+      label: Invert
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
