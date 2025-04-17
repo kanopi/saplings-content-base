@@ -5,5 +5,5 @@
 Base configuration for Saplings content types.
 
 * Requires Saplings Media recipe.
-* Requires Saplings Theme recipe.
+* Requires Arbor Theme recipe.
 * Field Storage for shared fields.
