@@ -5,7 +5,7 @@ recipes:
   - saplings-content-base-header
   - saplings-content-base-seo
   - saplings-media
-  - saplings-theme
+  - arbor-theme
 install:
   # Core.
   - link
