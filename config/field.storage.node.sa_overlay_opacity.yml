@@ -4,15 +4,24 @@ dependencies:
   module:
     - node
     - options
-id: node.field_overlay_invert
-field_name: field_overlay_invert
+id: node.sa_overlay_opacity
+field_name: sa_overlay_opacity
 entity_type: node
 type: list_string
 settings:
   allowed_values:
     -
-      value: invert
-      label: Invert
+      value: bg-opacity-10
+      label: 10%
+    -
+      value: bg-opacity-25
+      label: 25%
+    -
+      value: bg-opacity-50
+      label: 50%
+    -
+      value: bg-opacity-75
+      label: 75%
   allowed_values_function: ''
 module: options
 locked: false
